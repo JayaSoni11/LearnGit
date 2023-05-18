@@ -1,1 +1,5 @@
-Hello world
+git init
+git ls -lart
+git status
+git checkout =to undo your last changes in the file
+git checkout -f=to undo changes in all modified files
