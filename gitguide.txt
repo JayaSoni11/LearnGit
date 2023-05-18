@@ -1,5 +1,20 @@
 git init
-git ls -lart
 git status
-git checkout =to undo your last changes in the file
-git checkout -f=to undo changes in all modified files
+
+git add
+git commit -m "First commit"
+git branch -M main
+git remote add varname url
+git push -u varname main(branchname)
+
+git branch
+git checkout subbranchname
+git log
+git remote -v
+git push -u varname subbranchname(to push in subbranch)
+
+git merge subbranch
+git add mainbranch subbranch
+git commit -m "merge branch"
+git push varname main
+
